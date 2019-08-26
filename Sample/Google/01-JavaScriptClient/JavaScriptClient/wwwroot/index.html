@@ -32,8 +32,7 @@
                 Provider: "Google"
             };
 
-            $.post(client_url, request, function (result) {
-                debugger;
+            $.post(client_url, request, function (result) {                
                 if (result.error) {
                     //need to show form
                 } else if (result.access_token) {
